@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    printf("calculator started\n");
+    printf("calculator started");
     return 0;
 }
