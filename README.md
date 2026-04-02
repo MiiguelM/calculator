@@ -17,4 +17,3 @@ gcc main.c -o calculator
 
 Run:
 ./calculator
->>>>>>> 8160a05 (data entry separate)
