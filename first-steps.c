@@ -14,7 +14,7 @@ int main() {
     printf("--> ");
 
     scanf("%d", &option);
-    switch (option)
+    switch(option)
     {
     case 1:
         printf("Addition\n");
@@ -27,12 +27,14 @@ int main() {
     case 3:
         printf("Multiplication\n");
         break;
+        
     case 4:
         printf("Division\n");
         break;
     
     case 0:
         printf("Exiting...");
+        break;
 
     default:
         printf("Invalid option\n");
