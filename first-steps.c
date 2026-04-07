@@ -2,14 +2,12 @@
 
 int main() {
     int option;
+    float x, y;
     printf(" - Choose an option - \n");
     printf("\n");
     
     printf("1 - Addition\n");
     printf("2 - Subtraction\n");
-    printf("3 - Multiplication\n");
-    printf("4 - Division\n");
-    printf("0 - Exit\n");
     printf("\n");
     printf("--> ");
 
@@ -17,23 +15,23 @@ int main() {
     switch(option)
     {
     case 1:
-        printf("Addition\n");
+        printf("You chose addition\n");
+        printf("Enter the first number: ");
+        scanf("%f", &x);
+        printf("\n");
+        printf("Enter the second number:");
+        scanf("%f", &y);
+        printf("Result: %.2f", x + y);
         break;
     
     case 2:
-        printf("Subtraction\n");
-        break;
-
-    case 3:
-        printf("Multiplication\n");
-        break;
-        
-    case 4:
-        printf("Division\n");
-        break;
-    
-    case 0:
-        printf("Exiting...");
+        printf("You chose subtraction\n");
+        printf("Enter the first number: ");
+        scanf("%f", &x);
+        printf("\n");
+        printf("Enter the second number: ");
+        scanf("%f", &y);
+        printf("Result: %.2f", x - y);
         break;
 
     default:
