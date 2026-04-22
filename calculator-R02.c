@@ -4,7 +4,7 @@ int main() {
     int option = -1;
     float x, y;
 
-    while (option != 0){ // while option are different of 0, the code run
+    while (option != 0){
     
         printf("\n-- CALCULATOR --\n");
         printf("\n");
@@ -61,7 +61,7 @@ int main() {
             scanf("%f", &x);
             printf("%.2f / ", x);
             scanf("%f", &y);
-            printf("Result: %.2f", x / y);
+            printf("Result: %.2f\n", x / y);
         break;
 
         case 0:

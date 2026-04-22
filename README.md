@@ -1,9 +1,7 @@
-# calculator
-Simple calculator program in C with basic operations
-=======
+
 # Calculator in C
 
-Simple calculator program built in C.
+Simple calculator program built in C with basic operations
 
 ## Features
 - Addition
