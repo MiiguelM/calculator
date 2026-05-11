@@ -22,6 +22,8 @@ It's simple. But every line was written with intent.
 - ➗ Division (with division by zero protection)
 - 🔁 Continuous loop until the user exits
 - ❌ Invalid input handling (letters, symbols, etc.)
+- 🔗 Result carry-over — use the previous result as the first number of the next operation
+- 🔄 Reset option — clear the result and start fresh
 
 ---
 
@@ -29,12 +31,12 @@ It's simple. But every line was written with intent.
 
 **Compile:**
 ```bash
-gcc calculator-R03.c -o calculator
+gcc calculator-R04.c -o calculator.exe
 ```
 
 **Run:**
 ```bash
-./calculator
+calculator.exe
 ```
 
 > Requires GCC installed. On Windows, you can use MinGW or WSL.
@@ -48,7 +50,8 @@ gcc calculator-R03.c -o calculator
 | `first-steps.c` | Very first attempt — raw and simple |
 | `calculator-R01.c` | First structured version |
 | `calculator-R02.c` | Added more operations and better flow |
-| `calculator-R03.c` | Current version — with functions and error handling |
+| `calculator-R03.c` |  Functions, error handling and input validation |
+| `Calculator-R04.c` | **Current version** — result carry-over, reset and full input validation |
 
 ---
 
@@ -59,6 +62,8 @@ gcc calculator-R03.c -o calculator
 - How `scanf` handles input — and how to deal with invalid ones
 - Why **division by zero** needs to be treated explicitly
 - The importance of **cleaning the input buffer** with `getchar()`
+- How to use **function parameters and return values** to pass data between functions
+- How to manage **program state** with variables like `ongoing` and `result`
 
 ---
 
